@@ -1,4 +1,4 @@
-//suma de dos numeros entero
+//suma de dos numeros enteros
 
 #include <iostream>
 
@@ -6,9 +6,8 @@ int main(){
 
     int num1 = 2;
     int num2 = 3;
-    int resultado = num1 + num2;
 
-    std::cout << num1 << " + " << num2 << " = " << resultado;
+    std::cout << num1 << " + " << num2 << " = " << num1+num2;
 
     return 0;
 }
